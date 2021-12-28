@@ -1,0 +1,220 @@
+.web-logo{
+    border-left: 2px solid #0073c0;
+    border-top: 2px solid #0073c0;
+    border-right: 2px solid #F39C12;
+    border-bottom: 2px solid #F39C12;
+}
+.slide{
+    width: 100%;
+    height: 70%;
+}
+.navbar-light .navbar-nav .active>.nav-link{
+    color: #F39C12 !important;
+}
+.navbar-light .navbar-nav .nav-link:hover{
+    color: white !important;
+    background-color: #0073c0;
+}
+.text-blue{
+    color: #0073c0;
+}
+.text-orange{
+    color: #F39C12 !important;
+}
+.section2 {
+    background-color: #ececec;
+}
+.cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+}
+.products > .container > .row{
+    box-shadow: #ddd 0px 0px 19px 8px;
+    border-radius: 20px;
+}
+.myDiv{
+    background-color: white;
+    padding: 15px;
+    width: 100%;
+    border-radius: 5px;
+    text-align: center;
+}
+.myDiv p {
+    font-size: 15px;
+}
+.prd_data{
+    position: relative;
+    text-align: center;
+    padding: 10px;
+}
+.prd_data:hover{
+    box-shadow: 0px 0px 28px #888888;
+    opacity: 0.9;
+}
+.product-image{
+    width: 100%;
+}
+.show_data{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+}
+.show_data > button{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.prd_data:hover .show_data{
+    opacity: 0.92;
+    background: white;
+}
+.btn-prj{
+    background: #0073c0;
+    padding: 10px;
+    border-radius: 5px;
+    color: white;
+    border: none;
+}
+.btn-prj:hover{
+    background: #55b5e5;
+}
+.get-in-touch{
+    background-image: linear-gradient(to right, #0073c0, #55b5e5);
+    color: white;
+    border-radius: 10px;
+    width: 100%;
+    height: 50px;
+    padding: 6px;
+    text-align: center;
+}
+#get-in-touch:hover{
+    text-decoration: none;
+}
+.buy-products{
+    background-image: linear-gradient(to right, #fa831d , #f8a219);
+    color: white;
+    border-radius: 10px;
+    width: 100%;
+    height: 50px;
+    padding: 6px;
+    text-align: center;
+}
+#buy-products:hover{
+    text-decoration: none;
+}
+.footer{
+    background-image: linear-gradient(to right, #fa831d , #f8a219);
+}
+.links li{
+    list-style-type: none;
+}
+.links{
+    text-align: center;
+}
+.services-image{
+    overflow: hidden;
+    background-image: url('./images/img\ 2.jpg');
+    background-position: center;
+    background-size: cover;
+}
+.about-image{
+    overflow: hidden;
+    background-image: url('./images/img\ 3.jpg');
+    background-position: center;
+    background-size: cover;
+}
+.contact-image{
+    overflow: hidden;
+    background-image: url('./images/img 1.jpg');
+    background-position: center;
+    background-size: cover;
+}
+.banner-img-height{
+    height: 80vh;
+}
+.form-div{
+    background-color: #f6f6f6;
+    border-radius: 10px;
+}
+#contact-form-image{
+    background-image: url('./images/Contact-Us.jpg');
+    background-position: center;
+    background-size: cover;
+    height: 50vh;
+    border-radius: 20px;
+}
+.prdModal{
+    max-width: 40% !important;
+}
+.our-mission{
+    border: 2px solid #F39C12;
+    border-radius: 8px;
+    padding: 10px;
+}
+.our-mission > h5{
+    float: left;
+    width: 98%;
+}
+.mission-details{
+    border: 2px solid #53b1e4;
+    border-radius: 8px;
+    padding: 10px;
+}
+.our-vission{
+    border: 2px solid #F39C12;
+    border-radius: 8px;
+    padding: 10px;
+}
+.our-vission > h5{
+    float: left;
+    width: 98%;
+}
+.vission-details{
+    border: 2px solid #53b1e4;
+    border-radius: 8px;
+    padding: 10px;
+}
+.border-left-blue{
+    border-left: 2px solid #53b1e4;
+}
+@media only screen and (max-width:1052px) {
+    .our-mission > h5{
+        float: left;
+        width: 95%;
+    }
+    .our-vission > h5{
+        float: left;
+        width: 95%;
+    }
+}
+@media only screen and (min-width:0px) and (max-width: 767px) {
+    .banner-img-height{
+        height: 30vh;
+    }
+}
+@media only screen and (min-width:767px) and (max-width: 1200px) {
+    .banner-img-height{
+        height: 50vh;
+    }
+}
+@media only screen and (max-width: 767px) {
+    .links{
+        text-align: left;
+    }
+}
+@media only screen and (max-width:451px) {
+    .our-mission > h5{
+        float: left;
+        width: 93%;
+    }
+}

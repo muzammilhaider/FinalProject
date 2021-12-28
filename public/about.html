@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us</title>
+    <link rel="icon" href="./images/logo1.jpg">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.8.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.8.1/firebase-database.js"></script>
+  </head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <a class="navbar-brand web-logo" href="index.html"><span class=" px-2"><i>AUTOWORLD</i></span></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                  <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="testimonial.html">Testimonial</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">About Us <span class="sr-only">(current)</span></a>
+                  </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="contact.html">Contact Us</a>
+                </li>
+              </ul>
+            </div>
+          </nav>
+    </header>
+    
+    <section>
+      <div>
+          <div class="about-image banner-img-height">
+          </div>
+        </div>
+    </section>
+
+    <section class="sec1">
+        <div class="container">
+            <div class="row my-5">
+                <div class="col-md-6 text-center">
+                    <img src="./images/our-work.jpg" width="300" alt="">
+                </div>
+                <div class="col-md-6">
+                    <p>Autoworld is the leading & largest online retail in Pakistan, offering e-commerce marketplace for Car Accessories, Modification, Decoration Parts, Gadgets, 
+                        Body Conversions & Mobile Accessories. Headquartered in Lahore, the online shopping platform has a portfolio of over 100 local and international 
+                        brands and has established itself as a notable success story. The company aims to provide e-commerce services at lowest possible price with the 
+                        minimum commission charged from its vendor. To support the development of a vibrant online culture.</p>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid">
+            <div class="row my-3">
+                <div class="col-md-12">
+                    <div class="our-mission" onclick="showMission(this)">
+                        <h5>OUR MISSION</h5>
+                        <img src="./images/downarrow.png" width="20" alt="">
+                    </div>
+                </div>
+                <div class="col-md-12 mt-3 d-none animate__animated animate__slideInDown" id="mission-details">
+                    <div class="mission-details">
+                        <p>To bring value to our clients through best in class mobility services, to support our employees’ growth, to contribute 
+                            to the development of our community, leading to sustainable and attractive business returns for our shareholders.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="our-vission" onclick="showVission(this)">
+                        <h5>OUR VISSION</h5>
+                        <img src="./images/downarrow.png" width="20" alt="">
+                    </div>
+                </div>
+                <div class="col-md-12 mt-3 d-none animate__animated animate__slideInDown" id="vission-details">
+                    <div class="vission-details">
+                        <p>To be a forward-looking solution provider rooted in the mobility space, driven by operational excellence and in partnership with our employees and clients.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <footer class="footer mt-5">
+        <div class="container">
+          <div class="row py-4">
+            <div class="col-md-4">
+              <h3 class="text-white">About Us</h3>
+              <p class="text-white">7 Days Money Back Guarantee. Authentic & Reliable Products with High Quality Standards Guaranteed. 
+                Fast Deliveries All Over Pakistan. No Fake Listing, No Hidden Charges Cash on Delivery.</p>
+            </div>
+            <div class="col-md-4 links">
+              <h3 class="text-white">Links</h3>
+              <li><a href="index.html" class="text-white">Home</a></li>
+              <li><a href="testimonial.html" class="text-white">Testimonial</a></li>
+              <li><a href="about.html" class="text-white">About Us</a></li>
+              <li><a href="contact.html" class="text-white">Contact Us</a></li>
+            </div>
+            <div class="col-md-4 contacts">
+              <h3 class="text-white">Contact Us</h3>
+              <p class="text-white">+13216546411</p>
+              <p class="text-white">info@project.com</p>
+              <p class="text-white">69 Old Nicolls Street New Lenox, IL 60451</p>
+            </div>
+          </div>
+        </div>
+      </footer>
+</body>
+<script src="app.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js" integrity="sha384-VHvPCCyXqtD5DqJeNxl2dtTyhF78xXNXdkwX1CZeRusQfRKp+tA7hAShOK/B/fQ2" crossorigin="anonymous"></script>
+</html>
